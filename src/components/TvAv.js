@@ -27,7 +27,7 @@ function TvAv() {
             </span>
           </div>
         </div>
-        <div className="text-center z-10 bottom-8 lg:left-[28%] absolute">
+        <div className="text-center z-10 bottom-8 md:left-[15%] lg:left-[28%] absolute">
           <h1 className="text-4xl font-bold text-center mb-5">
             Greatness never ends, but evolves
           </h1>

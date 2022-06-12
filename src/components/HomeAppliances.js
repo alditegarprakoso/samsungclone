@@ -24,7 +24,7 @@ function HomeAppliances() {
             <span className="mx-5 text-base font-bold">AirDresser</span>
           </div>
         </div>
-        <div className="text-center z-10 bottom-8 lg:left-[28%] absolute">
+        <div className="text-center z-10 md:left-[15%] bottom-8 lg:left-[28%] absolute">
           <h1 className="text-4xl font-bold text-center">
             Designed for you, by you
           </h1>

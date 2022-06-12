@@ -14,8 +14,8 @@ function CarouselComponent() {
     <>
       <div className="carousel w-full h-[90vh]">
         <div id="slide1" className="carousel-item relative w-full items-center">
-          <div className="absolute z-10 top-12 left-20 text-center lg:top-16 lg:left-[50%] lg:text-left">
-            <h1 className="text-3xl lg:text-5xl mb-5 font-semibold">
+          <div className="absolute z-10 top-12 left-20 text-center md:top-20 md:left-[27%] lg:top-16 lg:left-[50%] lg:text-left">
+            <h1 className="text-3xl md:text-5xl mb-5 font-semibold">
               Galaxy S22 Ultra
             </h1>
             <p className="text-base mb-1">Get up to Rp2 Mio Off*</p>
@@ -36,7 +36,7 @@ function CarouselComponent() {
             autoPlay
             muted
             loop
-            className="hidden lg:block h-full object-cover w-full"
+            className="hidden md:block h-full object-cover w-full"
           >
             <source src={carousel1} type="video/mp4" />
           </video>
@@ -44,7 +44,7 @@ function CarouselComponent() {
             autoPlay
             muted
             loop
-            className="block lg:hidden h-full object-cover w-full"
+            className="block md:hidden h-full object-cover w-full"
           >
             <source src={slidemobile1} type="video/mp4" />
           </video>
@@ -58,7 +58,7 @@ function CarouselComponent() {
           </div>
         </div>
         <div id="slide2" className="carousel-item relative w-full items-center">
-          <div className="absolute z-10 top-10 text-center lg:top-[40%] lg:left-[8%] text-white">
+          <div className="absolute z-10 top-10 text-center md:w-[50%] md:top-[30%] lg:w-auto lg:top-[40%] lg:left-[8%] text-white">
             <h1 className="text-4xl lg:text-5xl mb-5 font-semibold">
               Let's Do Neo QLED 8K
             </h1>
@@ -90,7 +90,7 @@ function CarouselComponent() {
           </div>
         </div>
         <div id="slide3" className="carousel-item relative w-full items-center">
-          <div className="absolute text-center z-10 top-10 lg:text-left lg:top-24 lg:right-[16%] text-white lg:w-[35%]">
+          <div className="absolute text-center z-10 top-10 md:top-[30%] md:left-[13%] lg:text-left lg:top-24 lg:right-[16%] text-white lg:w-[35%]">
             <h1 className="text-4xl p-2 lg:p-0 lg:text-5xl mb-5 font-semibold">
               Part Time Assistant, Full Time Fridge
             </h1>
@@ -122,7 +122,7 @@ function CarouselComponent() {
           </div>
         </div>
         <div id="slide4" className="carousel-item relative w-full items-center">
-          <div className="absolute text-center lg:text-left z-10 top-12 lg:top-[30%] lg:left-[8%] text-white">
+          <div className="absolute text-center lg:text-left md:top-[20%] md:left-[-5%] z-10 top-12 lg:top-[30%] lg:left-[8%] text-white">
             <h1 className="text-4xl lg:text-5xl mb-5 font-semibold">
               Q-Series Soundbar
             </h1>

@@ -30,7 +30,7 @@ function Mobile() {
             </span>
           </div>
         </div>
-        <div className="text-center bottom-10 left-12 z-10 lg:bottom-8 lg:left-[38%] absolute">
+        <div className="text-center bottom-10 md:left-[32%] md:bottom-4 left-12 z-10 lg:bottom-8 lg:left-[38%] absolute">
           <h1 className="text-4xl font-bold text-center mb-8">
             Galaxy S22 | S22+
           </h1>

@@ -34,7 +34,7 @@ function Promo() {
         </div>
         <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
           <div className="group text-center cursor-pointer relative">
-            <div className="absolute lg:top-5 lg:left-[20%] z-10 justify-center">
+            <div className="absolute md:left-[26%] lg:top-5 lg:left-[20%] z-10 justify-center">
               <p className="font-bold text-2xl mb-3">
                 Semangat Baru dengan Promo <br /> terbaik
               </p>
@@ -48,10 +48,10 @@ function Promo() {
             <img
               src={promoJuni}
               alt="Promo Juni"
-              className="hover:scale-[1.1] ease-out duration-300 mt-20 lg:mt-0"
+              className="hover:scale-[1.1] ease-out duration-300 mt-20 md:mt-0 lg:mt-0"
             />
           </div>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-10 lg:mt-0">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-10 lg:mt-0">
             <div className="card bg-zinc-200 text-center cursor-pointer group">
               <div className="card-body items-center justify-center px-3">
                 <img
