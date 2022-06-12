@@ -1,28 +1,17 @@
 import "./App.css";
 import "../src/assets/js/script.js";
 
-import Navigasi from "./components/Navigasi";
-import CarouselComponent from "./components/Carousel";
-import Promo from "./components/Promo";
-import Mobile from "./components/Mobile";
-import TvAv from "./components/TvAv";
-import HomeAppliances from "./components/HomeAppliances";
-import Explore from "./components/Explore";
-import Footer from "./components/Footer";
-import Products from "./components/Products";
+import { Routes, Route } from "react-router-dom";
+import DetailProduct from "./DetailProduct";
+import Home from "./Home";
 
 function App() {
   return (
     <>
-      <Navigasi />
-      <CarouselComponent />
-      <Products />
-      <Promo />
-      <Mobile />
-      <TvAv />
-      <HomeAppliances />
-      <Explore />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/detail-product/:id" element={<DetailProduct />} />
+      </Routes>
     </>
   );
 }

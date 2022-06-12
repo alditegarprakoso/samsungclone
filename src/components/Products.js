@@ -11,8 +11,15 @@ import GalaxyS21 from "../assets/img/S21.jpg";
 import note10 from "../assets/img/note10.jpg";
 import galaxyA535G from "../assets/img/Galaxy A53 5G.webp";
 import GalaxyA425G from "../assets/img/Galaxy A42 5G.jpg";
+import { useNavigate } from "react-router-dom";
 
 function Products() {
+  let navigate = useNavigate();
+
+  const handleDetail = (id) => {
+    navigate(`/detail-product/${id}`);
+  };
+
   const {
     getListProductsResult,
     getListProductsLoading,
@@ -35,6 +42,7 @@ function Products() {
                 <div className="grid grid-flow-col gap-10 overflow-y-hidden p-5">
                   {brand.products.map((product) => (
                     <div
+                      onClick={() => handleDetail(product.id)}
                       key={product.id}
                       className="card w-64 bg-slate-50 shadow-md hover:scale-[1.05] transition ease-out duration-300 cursor-pointer"
                     >

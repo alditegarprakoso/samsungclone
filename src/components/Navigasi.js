@@ -3,6 +3,7 @@ import samsungLogo from "../assets/img/samsung-logo.png";
 import search from "../assets/img/search.svg";
 import user from "../assets/img/user.png";
 import cart from "../assets/img/cart.png";
+import { Link } from "react-router-dom";
 
 function Navigasi() {
   const [hamActive, setHamActive] = useState("");
@@ -35,13 +36,13 @@ function Navigasi() {
                 <span className="w-[30px] h-[2px] my-2 block bg-black transition duration-300 ease-in-out"></span>
                 <span className="w-[30px] h-[2px] my-2 block bg-black transition duration-300 ease-in-out origin-bottom-left"></span>
               </button>
-              <a href="#home" className="block mr-12">
+              <Link to="/" className="block mr-12">
                 <img
                   src={samsungLogo}
                   alt="Samsung Logo"
                   className="w-[130px]"
                 />
-              </a>
+              </Link>
               <div
                 id="nav-menu"
                 className={`${navActive} absolute p-5 bg-white shadow-lg rounded-lg max-w-[100%] w-full right-0 top-full lg:flex lg:justify-between lg:static lg:max-w-full lg:shadow-none lg:rounded-none z-50`}
