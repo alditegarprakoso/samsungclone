@@ -7,7 +7,7 @@ function HomeAppliances() {
     <>
       <div className="relative my-20">
         <picture>
-          <source media="(max-width: 799px)" srcset={bgbospokemobile} />
+          <source media="(max-width: 799px)" srcSet={bgbospokemobile} />
           <img src={bospoke} alt="BG Galaxy 22" />
         </picture>
         <div className="z-10 top-10 w-full absolute">

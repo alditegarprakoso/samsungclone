@@ -72,8 +72,8 @@ function CarouselComponent() {
               </button>
             </div>
           </div>
-          <picture>
-            <source media="(max-width: 799px)" srcset={slidemobile2} />
+          <picture className="h-full w-full">
+            <source media="(max-width: 799px)" srcSet={slidemobile2} />
             <img
               src={carousel2}
               className="h-full object-cover w-full"
@@ -104,8 +104,8 @@ function CarouselComponent() {
               </button>
             </div>
           </div>
-          <picture>
-            <source media="(max-width: 799px)" srcset={slidemobile3} />
+          <picture className="h-full w-full">
+            <source media="(max-width: 799px)" srcSet={slidemobile3} />
             <img
               src={carousel3}
               className="h-full object-cover w-full"
@@ -136,8 +136,8 @@ function CarouselComponent() {
               </button>
             </div>
           </div>
-          <picture>
-            <source media="(max-width: 799px)" srcset={slidemobile4} />
+          <picture className="h-full w-full">
+            <source media="(max-width: 799px)" srcSet={slidemobile4} />
             <img
               src={carousel4}
               className="h-full object-cover w-full"

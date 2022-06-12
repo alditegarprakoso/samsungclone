@@ -7,12 +7,12 @@ function TvAv() {
     <>
       <div className="relative mt-20 text-white">
         <picture>
-          <source media="(max-width: 799px)" srcset={bgmobileqled} />
+          <source media="(max-width: 799px)" srcSet={bgmobileqled} />
           <img src={webhomepage} alt="BG Galaxy 22" />
         </picture>
         <div className="z-10 top-10 w-full absolute">
           <h1 className="text-4xl font-bold text-center mb-5">TV & AV</h1>
-          <div className="text-center lg:justify-center grid grid-flow-col gap-3 overflow-y-hidden lg:overflow-y-visible">
+          <div className="text-center py-3 lg:justify-center grid grid-flow-col gap-3 overflow-y-hidden lg:overflow-y-visible">
             <span className="w-[125%] lg:w-full mx-5 text-sm lg:text-base font-bold underline underline-offset-8">
               NEO QLED
             </span>
