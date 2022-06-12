@@ -1,3 +1,19 @@
+## Demo
+
+https://samsungclone.vercel.app/
+
+To run this project locally, clone and run the command below :
+
+```bash
+  npm install
+```
+
+Then
+
+```bash
+  npm start
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
