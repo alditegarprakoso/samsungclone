@@ -4,9 +4,9 @@ import { getProducts } from "../actions/productAction";
 
 import GalaxyZFlip35G from "../assets/img/Galaxy Z Flip3 5G.png";
 import GalaxyZFold35G from "../assets/img/Galaxy Z Fold3 5G.png";
-import GalaxyS22plus from "../assets/img/GalaxyS22+.jpg";
+import GalaxyS22plus from "../assets/img/GalaxyS22plus.jpg";
 import GalaxyS22 from "../assets/img/S22.jpg";
-import GalaxyS21plus from "../assets/img/S21+.jpg";
+import GalaxyS21plus from "../assets/img/S21plus.jpg";
 import GalaxyS21 from "../assets/img/S21.jpg";
 import note10 from "../assets/img/note10.jpg";
 import galaxyA535G from "../assets/img/Galaxy A53 5G.webp";
