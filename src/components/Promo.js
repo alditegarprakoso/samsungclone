@@ -15,7 +15,7 @@ function Promo() {
         <p className="text-center font-semibold mb-8">
           Dapatkan info terbaru disini
         </p>
-        <div className="text-center grid grid-flow-col gap-3 overflow-y-hidden mb-10 lg:overflow-y-visible">
+        <div className="scrollbar-none text-center grid grid-flow-col gap-3 overflow-y-hidden mb-10 lg:overflow-y-visible">
           <span className="text-sm mx-5 w-full lg:text-base font-bold underline underline-offset-8">
             Semangat Juni
           </span>

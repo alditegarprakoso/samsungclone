@@ -14,7 +14,7 @@ function HomeAppliances() {
           <h1 className="text-4xl font-bold text-center mb-5">
             Home Appliances
           </h1>
-          <div className="text-center lg:justify-center grid grid-flow-col gap-3 overflow-y-hidden lg:overflow-y-visible">
+          <div className="text-center lg:justify-center scrollbar-none grid grid-flow-col gap-3 overflow-y-hidden lg:overflow-y-visible">
             <span className="mx-5 text-base font-bold underline underline-offset-8">
               BESPOKE
             </span>

@@ -12,7 +12,7 @@ function Mobile() {
         </picture>
         <div className="z-10 top-5 absolute w-full">
           <h1 className="text-4xl font-bold text-center mb-5">Mobile</h1>
-          <div className="text-center lg:justify-center grid grid-flow-col gap-3 overflow-y-hidden lg:overflow-y-visible py-3">
+          <div className="text-center lg:justify-center grid grid-flow-col gap-3 overflow-y-hidden lg:overflow-y-visible py-3 scrollbar-none">
             <span className="w-[125%] lg:w-full text-sm lg:text-base mr-20 font-bold underline underline-offset-8">
               Galaxy S22 | S22+
             </span>
