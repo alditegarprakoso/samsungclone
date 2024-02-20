@@ -7,14 +7,14 @@ import TvAv from "./components/TvAv";
 import HomeAppliances from "./components/HomeAppliances";
 import Explore from "./components/Explore";
 import Footer from "./components/Footer";
-import Products from "./components/Products";
+// import Products from "./components/Products";
 
 function Home() {
   return (
     <>
       <Navigasi />
       <CarouselComponent />
-      <Products />
+      {/* <Products /> */}
       <Promo />
       <Mobile />
       <TvAv />
